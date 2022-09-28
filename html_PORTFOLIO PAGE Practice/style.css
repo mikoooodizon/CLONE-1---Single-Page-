@@ -1,0 +1,36 @@
+.topbar {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+/* 10 not 100 because it's sgv */
+
+img {
+ width: 10%;
+}
+header {
+    margin-bottom: 5em;
+}
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin-right: 1em;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin: 0 15%;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    margin: 0 15%;
+}
